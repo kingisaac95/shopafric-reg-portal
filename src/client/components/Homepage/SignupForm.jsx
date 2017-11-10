@@ -67,7 +67,6 @@ class SignupForm extends Component {
         }
       });
       this.props.createMerchant(this.state);
-      console.log('created label', this.props.created)
       if (this.props.created) {
         this.setState((prevState) => {
           return {
